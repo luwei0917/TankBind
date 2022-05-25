@@ -1,0 +1,46 @@
+[INFO] Console - predicting pockets for proteins from dataset [protein_list.ds]
+[INFO] PredictRoutine - outdir: ./HTVS//p2rank
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [protein_list.ds] using 1 thread
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [6dlo.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [6dlo.pdb] (1/1)
+[INFO] Protein - loading protein [./TankBind/examples/HTVS/6dlo.pdb]
+[INFO] PdbUtils - loading file [./HTVS//6dlo.pdb]
+[INFO] Struct - groups in chain A: 311
+[INFO] Struct - groups in chain A: 311
+[INFO] Struct - 311 groups in chain A
+[INFO] Protein - structure atoms: 2455
+[INFO] Protein - protein   atoms: 2382
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 4642
+[INFO] Protein - exposed protein atoms: 1468 of 2382
+[INFO] InstancePredictor - Creating WekaInstancePredictor
+[INFO] SLinkClusterer - clustering [109] elements
+[INFO] SLinkClusterer - clusters: [id:20( 5 ), id:22( 1 ), id:35( 3 ), id:36( 8 ), id:38( 2 ), id:47( 57 ), id:52( 8 ), id:55( 3 ), id:68( 1 ), id:69( 3 ), id:70( 1 ), id:78( 3 ), id:79( 1 ), id:91( 7 ), id:92( 1 ), id:105( 2 ), id:106( 1 ), id:107( 1 ), id:108( 1 )]
+[INFO] SLinkClusterer - clusters together: 109 / 109
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4642
+[INFO] PocketPredictor - LIGANDABLE POINTS: 109
+[INFO] PocketPredictor - CLUSTERS: 19
+[INFO] PocketPredictor - FILTERED CLUSTERS: 9
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  58   points:  57   score:   16.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  19   points:   8   score:    3.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  22   points:   8   score:    3.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  19   points:   7   score:    2.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  12   points:   5   score:    2.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  14   points:   3   score:    1.7
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  12   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  10   points:   3   score:    1.0
+[INFO] OldPymolRenderer - copying [./TankBind/examples/HTVS/6dlo.pdb] to [./HTVS//p2rank/visualizations/data/6dlo.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 4.970 seconds
+[INFO] Console - results saved to directory [./TankBind/examples/HTVS/p2rank]
+[INFO] Console - 
+[INFO] Console - ----------------------------------------------------------------------------------------------
+[INFO] Console -  finished successfully in 0 hours 0 minutes 5.755 seconds
+[INFO] Console - ----------------------------------------------------------------------------------------------

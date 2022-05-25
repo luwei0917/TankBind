@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [protein_list.ds]
+[INFO] PredictRoutine - outdir: ./single_PDB_6hd6//p2rank
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [protein_list.ds] using 1 thread
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [6hd6_protein.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [6hd6_protein.pdb] (1/1)
+[INFO] Protein - loading protein [/examples/single_PDB_6hd6/6hd6_protein.pdb]
+[INFO] PdbUtils - loading file [./single_PDB_6hd6/./6hd6_protein.pdb]
+[INFO] Struct - groups in chain A: 285
+[INFO] Struct - groups in chain A: 285
+[INFO] Struct - 285 groups in chain A
+[INFO] Protein - structure atoms: 2313
+[INFO] Protein - protein   atoms: 2268
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 4743
+[INFO] Protein - exposed protein atoms: 1549 of 2268
+[INFO] InstancePredictor - Creating WekaInstancePredictor
+[INFO] SLinkClusterer - clustering [164] elements
+[INFO] SLinkClusterer - clusters: [id:17( 2 ), id:50( 5 ), id:69( 4 ), id:76( 1 ), id:83( 75 ), id:111( 22 ), id:116( 1 ), id:124( 1 ), id:125( 5 ), id:131( 2 ), id:134( 1 ), id:135( 10 ), id:145( 1 ), id:151( 25 ), id:153( 2 ), id:154( 1 ), id:155( 1 ), id:157( 5 )]
+[INFO] SLinkClusterer - clusters together: 164 / 164
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4743
+[INFO] PocketPredictor - LIGANDABLE POINTS: 164
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  71   points:  75   score:   30.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  38   points:  25   score:    9.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  49   points:  22   score:    8.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  16   points:  10   score:    3.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  21   points:   5   score:    2.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  18   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  23   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  13   points:   5   score:    1.4
+[INFO] OldPymolRenderer - copying [/examples/single_PDB_6hd6/6hd6_protein.pdb] to [./single_PDB_6hd6//p2rank/visualizations/data/6hd6_protein.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.386 seconds
+[INFO] Console - results saved to directory [/examples/single_PDB_6hd6/p2rank]
+[INFO] Console - 
+[INFO] Console - ----------------------------------------------------------------------------------------------
+[INFO] Console -  finished successfully in 0 hours 0 minutes 6.437 seconds
+[INFO] Console - ----------------------------------------------------------------------------------------------
