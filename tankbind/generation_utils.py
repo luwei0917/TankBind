@@ -56,6 +56,8 @@ def distance_loss_function(epoch, y_pred, x, protein_nodes_xyz, compound_pair_di
         configuration_loss = 1 * (((config_dis-compound_pair_dis_constraint).abs())[LAS_distance_constraint_mask]).sum()
     else:
         configuration_loss = 1 * ((config_dis-compound_pair_dis_constraint).abs()).sum()
+        # basic exlcuded-volume. the distance between compound atoms should be at least 1.22Å
+        configuration_loss += 2 * ((1.22 - config_dis).relu()).sum()
     if epoch < 500:
         loss = interaction_loss
     else:
