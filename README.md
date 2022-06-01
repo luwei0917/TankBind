@@ -1,8 +1,10 @@
 ![header](imgs/header.png)
 
+### [Paper on arXiv](https://arxiv.org/abs/xxx)
+
 # TankBind
 TankBind could predict both the protein-ligand binding structure and their affinity.
-If you have any question or suggestion, please feel free to open an issue or email me at [wei.lu@galixir.com](wei.lu@galixir.com).
+If you have any question or suggestion, please feel free to open an issue or email me at [wei.lu@galixir.com](wei.lu@galixir.com) or shuangjia zheng at [shuangjia.zheng@galixir.com](shuangjia.zheng@galixir.com).
 
 ## Installation
 ````
@@ -19,7 +21,7 @@ conda install torchdrug pyg biopython nglview -c milagraph -c conda-forge -c pyt
 pip install torchmetrics tqdm mlcrate pyarrow
 ````
 
-p2rank v2.3 could be installed by following the instruction here:
+p2rank v2.3 could be downloaded from here:
 
 https://github.com/rdk/p2rank/releases/download/2.3/p2rank_2.3.tar.gz
 
@@ -36,7 +38,7 @@ To process the raw PDBbind data into training and test set, check out
     examples/construction_PDBbind_training_and_test_dataset.ipynb
 
 ## High-throughput virtual screening
-TankBind also support virtual screening. In our example here, for the WDR domain of LRRK2 protein, we can screen 10,000 drug candidates in 2 minutes (or 1M in around 3 hours). Check out
+TankBind also support virtual screening. In our example here, for the WDR domain of LRRK2 protein, we can screen 10,000 drug candidates in 2 minutes (or 1M in around 3 hours) with a single GPU. Check out
 
     examples/high_throughput_virtual_screening_LRRK2_WDR.ipynb
 
