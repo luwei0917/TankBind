@@ -61,6 +61,9 @@ def write_renumbered_sdf(toFile, sdf_fileName, mol2_fileName):
     w.write(mol)
     w.close()
 
+def get_canonical_smiles(smiles):
+    return Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
+
 
 def generate_rdkit_conformation_v2(smiles, n_repeat=50):
     mol = Chem.MolFromSmiles(smiles)

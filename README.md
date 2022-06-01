@@ -30,7 +30,7 @@ To predict the drug-protein binding structure, check out
     examples/prediction_example_using_PDB_6hd6.ipynb
 
 
-## Training and test dataset Construction
+## Training and test dataset construction
 To process the raw PDBbind data into training and test set, check out 
 
     examples/construction_PDBbind_training_and_test_dataset.ipynb
