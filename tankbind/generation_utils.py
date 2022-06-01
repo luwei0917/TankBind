@@ -14,12 +14,10 @@ import glob
 import torch
 from torch import nn
 
-
 from datetime import datetime
 import logging
 from io import StringIO
 import sys
-
 from scipy.spatial.transform import Rotation
 
 

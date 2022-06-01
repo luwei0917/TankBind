@@ -19,9 +19,9 @@ conda install torchdrug pyg biopython nglview -c milagraph -c conda-forge -c pyt
 pip install torchmetrics tqdm mlcrate pyarrow
 ````
 
-p2rank2.3 could be installed by following the instruction here:
+p2rank v2.3 could be installed by following the instruction here:
 
-https://github.com/rdk/p2rank
+https://github.com/rdk/p2rank/releases/download/2.3/p2rank_2.3.tar.gz
 
 
 ## Prediction
