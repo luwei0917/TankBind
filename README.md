@@ -1,6 +1,6 @@
 ![header](imgs/header.png)
 
-### [Paper on arXiv](https://arxiv.org/abs/xxx)
+### [Paper on arXiv](https://biorxiv.org/cgi/content/short/2022.06.06.495043v1)
 
 # TankBind
 TankBind could predict both the protein-ligand binding structure and their affinity.
@@ -32,7 +32,7 @@ To predict the drug-protein binding structure, check out
     examples/prediction_example_using_PDB_6hd6.ipynb
 
 
-## Training and test dataset construction
+## Dataset construction
 To process the raw PDBbind data into training and test set, check out 
 
     examples/construction_PDBbind_training_and_test_dataset.ipynb

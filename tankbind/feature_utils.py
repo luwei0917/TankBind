@@ -251,7 +251,7 @@ def get_res_unique_id(residue):
     unique_id = f"{chain}_{resid}_{insertion}"
     return unique_id
 
-def split_protein_and_ligand(c, pdb, ligand_seq_id, proteinFile, ligandFile):
+def save_cleaned_protein(c, proteinFile):
     res_list = list(c.get_residues())
     clean_res_list, ligand_list = remove_hetero_and_extract_ligand(res_list)
     res_id_list = set([get_res_unique_id(residue) for residue in clean_res_list])
@@ -263,9 +263,12 @@ def split_protein_and_ligand(c, pdb, ligand_seq_id, proteinFile, ligandFile):
                 return True
             else:
                 return False
-    chain = c.id
     io.set_structure(c)
     io.save(proteinFile, MySelect())
+
+def split_protein_and_ligand(c, pdb, ligand_seq_id, proteinFile, ligandFile):
+    save_cleaned_protein(c, proteinFile)
+    chain = c.id
     # should take a look of this ligand_list to ensure we choose the right ligand.
     seq_id = ligand_seq_id
     # download the ligand in sdf format from rcsb.org. because we pdb format doesn't contain bond information.
