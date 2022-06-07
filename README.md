@@ -31,6 +31,9 @@ To predict the drug-protein binding structure, check out
 
     examples/prediction_example_using_PDB_6hd6.ipynb
 
+<!-- ![example](imgs/example_6hd6.png = 200) -->
+<img src="imgs/example_6hd6.png" width="200">
+
 
 ## Dataset construction
 To process the raw PDBbind data into training and test set, check out 
