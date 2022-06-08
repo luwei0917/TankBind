@@ -27,7 +27,7 @@ https://github.com/rdk/p2rank/releases/download/2.3/p2rank_2.3.tar.gz
 
 
 ## Prediction
-To predict the drug-protein binding structure, check out 
+We use the prediction of protein ABL1 in complex with two drugs, Imatinib and compound6 (PDB: 6HD6) as an example for predicting the drug-protein binding structure. 
 
     examples/prediction_example_using_PDB_6hd6.ipynb
 
