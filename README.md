@@ -36,9 +36,7 @@ To predict the drug-protein binding structure, check out
 
 
 ## Dataset construction
-To process the raw PDBbind data into training and test set, check out 
-
-    examples/construction_PDBbind_training_and_test_dataset.ipynb
+Script for training dataset construction will release later.
 
 ## High-throughput virtual screening
 TankBind also support virtual screening. In our example here, for the WDR domain of LRRK2 protein, we can screen 10,000 drug candidates in 2 minutes (or 1M in around 3 hours) with a single GPU. Check out
