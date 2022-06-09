@@ -265,9 +265,10 @@ def save_cleaned_protein(c, proteinFile):
                 return False
     io.set_structure(c)
     io.save(proteinFile, MySelect())
+    return clean_res_list, ligand_list
 
 def split_protein_and_ligand(c, pdb, ligand_seq_id, proteinFile, ligandFile):
-    save_cleaned_protein(c, proteinFile)
+    clean_res_list, ligand_list = save_cleaned_protein(c, proteinFile)
     chain = c.id
     # should take a look of this ligand_list to ensure we choose the right ligand.
     seq_id = ligand_seq_id
