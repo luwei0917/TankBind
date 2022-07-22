@@ -86,8 +86,8 @@ if args.data == "1":
 logging.info(f"data point, valid: {len(valid)}, test: {len(test)}")
 
 
-valid_loader = DataLoader(valid, batch_size=args.batch_size, follow_batch=['x', 'compound_pair'], shuffle=False, num_workers=8)
-test_loader = DataLoader(test, batch_size=args.batch_size, follow_batch=['x', 'compound_pair'], shuffle=False, num_workers=8)
+valid_loader = DataLoader(valid, batch_size=args.batch_size, follow_batch=['x', 'compound_pair'], shuffle=False, num_workers=8, pin_memory=True)
+test_loader = DataLoader(test, batch_size=args.batch_size, follow_batch=['x', 'compound_pair'], shuffle=False, num_workers=8, pin_memory=True)
 # torch.cuda.set_device(0)
 
 
