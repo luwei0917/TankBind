@@ -36,7 +36,14 @@ We use the prediction of the structure of protein ABL1 in complex with two drugs
 
 
 ## Dataset construction
-Scripts for training dataset construction will be released later.
+Scripts for training/test dataset construction is provided in:
+
+    examples/construction_PDBbind_training_and_test_dataset.ipynb.ipynb
+
+The Script I used to train the model is 
+
+    python main.py -d 0 -m 0 --batch_size 5 --label baseline --addNoise 5 --use_equivalent_native_y_mask
+
 
 ## High-throughput virtual screening
 TankBind also support virtual screening. In our example here, for the WDR domain of LRRK2 protein, we can screen 10,000 drug candidates in 2 minutes (or 1M in around 3 hours) with a single GPU. Check out
