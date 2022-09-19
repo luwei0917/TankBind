@@ -26,6 +26,13 @@ p2rank v2.3 could be downloaded from here:
 https://github.com/rdk/p2rank/releases/download/2.3/p2rank_2.3.tar.gz
 
 
+## Test set evaluation
+We include the script for reproducing the self-dock result in
+
+    examples/testset_evaluation_cleaned.ipynb
+
+The test_dataset is constructed using the notebook in "Dataset construction" section.
+
 
 ## Prediction
 We use the prediction of the structure of protein ABL1 in complex with two drugs, Imatinib and compound6 (PDB: 6HD6) as an example for predicting the drug-protein binding structure. 
