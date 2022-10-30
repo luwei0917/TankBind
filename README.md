@@ -1,6 +1,6 @@
 ![header](imgs/header.png)
 
-### [Paper on arXiv](https://biorxiv.org/cgi/content/short/2022.06.06.495043v1)
+Source code for the *NeurIPS 2022* paper [TANKBind: Trigonometry-Aware Neural NetworKs for Drug-Protein Binding Structure Prediction](https://biorxiv.org/cgi/content/short/2022.06.06.495043v1)
 
 # TankBind
 TankBind could predict both the protein-ligand binding structure and their affinity.
@@ -57,3 +57,6 @@ TankBind also support virtual screening. In our example here, for the WDR domain
 
     examples/high_throughput_virtual_screening_LRRK2_WDR.ipynb
 
+
+## Reference
+Coming soon...
