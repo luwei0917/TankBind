@@ -4,7 +4,9 @@ Source code for the *NeurIPS 2022* paper [TANKBind: Trigonometry-Aware Neural Ne
 
 # TankBind
 TankBind could predict both the protein-ligand binding structure and their affinity.
-This repository is mainly for reproducing the result reported in the paper. Since then, we have made several improvements to the model and re-trained with in-house data. You could request a trial of the latest version by applying an account here https://m1.galixir.com/public/login_en/index.html.
+
+The primary purpose of this repository is to enable the reproduction of the results reported in the paper, as well as to facilitate the work of others who wish to build upon it.
+To experience the latest version, which includes various improvements made to the model, simply create an account at https://m1.galixir.com/public/login_en/index.html.
 
 If you have any question or suggestion, please feel free to open an issue or email me at [wei.lu@galixir.com](wei.lu@galixir.com) or shuangjia zheng at [shuangjia.zheng@galixir.com](shuangjia.zheng@galixir.com).
 
