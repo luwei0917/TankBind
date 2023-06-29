@@ -63,5 +63,10 @@ TankBind also support virtual screening. In our example here, for the WDR domain
     examples/high_throughput_virtual_screening_LRRK2_WDR.ipynb
 
 
-## Reference
-Coming soon...
+## Citation
+    @article{lu2022tankbind,
+    	title={Tankbind: Trigonometry-aware neural networks for drug-protein binding structure prediction},
+    	author={Lu, Wei and Wu, Qifeng and Zhang, Jixian and Rao, Jiahua and Li, Chengtao and Zheng, Shuangjia},
+    	journal={Advances in Neural Information Processing Systems},
+    	year={2022}
+    }
