@@ -21,7 +21,7 @@ conda install pytorch cudatoolkit=11.3 -c pytorch
 ````
 
 ````
-conda install torchdrug=0.1.2 pyg biopython nglview jupyterlab -c milagraph -c conda-forge -c pytorch -c pyg
+conda install torchdrug=0.1.2 pyg=2.1.0 biopython nglview jupyterlab -c milagraph -c conda-forge -c pytorch -c pyg
 pip install torchmetrics tqdm mlcrate pyarrow
 rdkit version used: 2021.03.4
 ````
